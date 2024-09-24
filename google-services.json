@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "746378730992",
+    "project_id": "aplicativo-firebase-31277",
+    "storage_bucket": "aplicativo-firebase-31277.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746378730992:android:6a380e0c2c9688bfac9135",
+        "android_client_info": {
+          "package_name": "com.example.diariodofiscal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0nOiFc6Mmn-jFCb1azqJipBLNu6DYaZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
