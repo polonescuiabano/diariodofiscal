@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiarioDoFiscal"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true"
+        >
+        <activity
+            android:name=".notificacoes.AvaliacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notificacoes.enviarocorrencia"
+            android:exported="false" />
+        <activity
+            android:name=".notificacoes.detalhesocorrencia"
+            android:exported="false" />
+        <activity
+            android:name=".addocorrencia"
+            android:exported="false" />
+        <activity
+            android:name=".notificacoes.notificacoes"
+            android:exported="false" />
+        <activity
+            android:name=".agenda.historico"
+            android:exported="false" />
+        <activity
+            android:name=".adm.logs"
+            android:exported="false" />
+        <activity
+            android:name=".adm.RelatoriosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".telaprincipal.adm"
+            android:exported="false" />
+        <activity
+            android:name=".agenda.diario"
+            android:exported="false" />
+        <activity
+            android:name=".agenda.AgendaGeral"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.PrimorDasTorres"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.Alphaville2"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.Belvedere2"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.Belvedere"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.FloraisCuiaba"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.FloraisParque"
+            android:exported="false" />
+        <activity
+            android:name=".atividades.DetalhesVistoria"
+            android:exported="false" />
+        <activity
+            android:name=".addvistoria.AddVistoria"
+            android:exported="false" />
+        <activity
+            android:name=".vistorias.Vistoria"
+            android:exported="false" />
+        <activity
+            android:name=".atividades.DetalhesObraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".addobra.AddObraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.Villajardim"
+            android:exported="false" />
+        <activity
+            android:name=".condominios.FloraisItaliaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listacondominios.condominios"
+            android:exported="false" />
+        <activity
+            android:name=".telaprincipal.telaprincipal"
+            android:exported="false" />
+        <activity android:name=".notificacoes.editormensagem"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
